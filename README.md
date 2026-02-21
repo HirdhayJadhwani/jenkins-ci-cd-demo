@@ -41,7 +41,7 @@ jenkins-ci-cd-demo/
 └── Jenkinsfile # Jenkins CI/CD pipeline definition
 
 ### Jenkinsfile (Reference)
-
+```groovy
 pipeline {
     agent any
 
@@ -66,15 +66,17 @@ pipeline {
         }
     }
 }
-
-5. Sample Output (Console Log)
+```
+## 5. Sample Output (Console Log)
+```groovy
 Building the application...
 Running tests...
 Tests passed successfully!
 Deploying application...
 Finished: SUCCESS
+```
 
-6. Learning Outcomes
+## 6. Learning Outcomes
 <ul>
 <li>Understood the basic structure of CI/CD pipelines</li>
 <li>Learned how to configure Jenkins on a Linux environment</li>
