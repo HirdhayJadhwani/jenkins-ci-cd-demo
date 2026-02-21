@@ -34,11 +34,11 @@ The Jenkins job is connected to GitHub using the SCM configuration.
 ---
 
 ## 4. Project Structure
-jenkins-ci-cd-demo/
-│
-├── app.py # Simple Python application
-├── test.py # Test script executed during CI
-└── Jenkinsfile # Jenkins CI/CD pipeline definition
+jenkins-ci-cd-demo/<br>
+│<br>
+├── app.py # Simple Python application<br>
+├── test.py # Test script executed during CI<br>
+└── Jenkinsfile # Jenkins CI/CD pipeline definition<br>
 
 ### Jenkinsfile (Reference)
 ```groovy
